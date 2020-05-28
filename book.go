@@ -10,7 +10,7 @@ type Book struct {
 }
 
 func (b Book) toString() string {
-	return fmt.Sprintf("Title:\t\t%q\n+Author:\t\t%q\n+YearOfPublish:\t\t%v\n", b.Title, b.Author, b.YearOfPublish)
+	return fmt.Sprintf("Title:\t\t%q\n Author:\t\t%q\n YearOfPublish:\t\t%v\n", b.Title, b.Author, b.YearOfPublish)
 }
 
 var books = []Book{
